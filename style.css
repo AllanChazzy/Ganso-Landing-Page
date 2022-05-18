@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: hsl(6, 100%, 67%);
+  --primary-color: hsl(6, 69%, 57%);
   --primary-color-light: hsl(5, 81%, 84%);
 
   --headline: hsl(210, 11%, 15%);
@@ -599,12 +599,12 @@ footer .social-links {
   }
 
   nav#navigation.scroll .menu ul li a {
-    color: var(--brand-green-light-2);
+    color: var(--primary-color);
   }
 
   nav#navigation.scroll .menu a.button {
-    border-color: var(--brand-green-light-2);
-    color: var(--brand-green-light-2);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
   }
 
   nav#navigation .menu li a {
@@ -655,6 +655,7 @@ footer .social-links {
     background-color: var(--primary-color);
     border: none;
     filter: brightness(1.3);
+    color: white;
   }
 
   /*========= HOME ======= */

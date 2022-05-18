@@ -406,11 +406,13 @@ body.menu-expanded button path {
   transition: 200ms;
 }
 
-/* Conteúdo da TAB */
-#services .tabcontent .icons {
+/* Conteúdo da TAB */ /* Precisa revisar toda a lógica dos conteiners. */
+
+#services .wrapper .icons {
   display: flex;
-  align-items: left;
+  align-items: center;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #services .tabcontent p {
@@ -422,18 +424,12 @@ body.menu-expanded button path {
 }
 
 #services .solutions {
+  max-width: 33%;
+  max-height: 50%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
-  gap: 3.2rem;
-}
-
-#services header h2 {
-  margin-bottom: 6rem;
-}
-
-#services .solutions {
-  padding: 2.4rem;
+  padding: 1.6rem;
   text-align: center;
 
   background-color: white;
@@ -441,11 +437,16 @@ body.menu-expanded button path {
   border-radius: 0.6rem;
 }
 
-#services .card h3 {
+#services header h2 {
+  margin-bottom: 6rem;
+}
+
+#services .solutions .icons {
   margin-block: 1.6rem;
 }
 
 #services .solutions p {
+  padding: 0;
   font-size: 1.2rem;
   text-align: center;
 }

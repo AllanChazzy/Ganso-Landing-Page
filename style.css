@@ -74,13 +74,14 @@ section header h4 {
   color: var(--brand-primary-01);
 
   text-transform: uppercase;
+  text-align: left;
 
   margin-bottom: 1.6rem;
 }
 section header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
-  text-align: center;
+  text-align: left;
 
   color: var(--headline);
 }
@@ -90,6 +91,8 @@ section header h1 {
   color: var(--headline);
   line-height: 130%;
   margin-bottom: 2.4rem;
+
+  text-align: left;
 }
 
 section .content p {
@@ -408,13 +411,6 @@ body.menu-expanded button path {
 
 /* Conteúdo da TAB */ /* Precisa revisar toda a lógica dos conteiners. */
 
-#services .wrapper .icons {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 #services .tabcontent p {
   display: flex;
   align-items: left;
@@ -423,25 +419,12 @@ body.menu-expanded button path {
   padding: 2.4rem;
 }
 
-#services .solutions {
-  max-width: 33%;
-  max-height: 50%;
-  display: flex;
-  flex-direction: row;
-
-  padding: 1.6rem;
-  text-align: center;
-
-  background-color: white;
-  border: 1px solid var(--brand-green-light);
-  border-radius: 0.6rem;
-}
-
 #services header h2 {
   margin-bottom: 6rem;
+  text-align: left;
 }
 
-#services .solutions .icons {
+#services .solutions  {
   margin-block: 1.6rem;
 }
 
@@ -491,8 +474,10 @@ body.menu-expanded button path {
 
 #contact ul li {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 0.8rem;
+
+  text-align: left;
 }
 
 #contact li path {

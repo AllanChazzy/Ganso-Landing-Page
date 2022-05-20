@@ -409,29 +409,17 @@ body.menu-expanded button path {
   transition: 200ms;
 }
 
-/* Conteúdo da TAB */ /* Precisa revisar toda a lógica dos conteiners. */
-
 #services .tabcontent p {
   display: flex;
   align-items: left;
   text-align: left;
-  flex-direction: column;
+  flex-direction: row;
   padding: 2.4rem;
 }
 
 #services header h2 {
   margin-bottom: 6rem;
   text-align: left;
-}
-
-#services .solutions  {
-  margin-block: 1.6rem;
-}
-
-#services .solutions p {
-  padding: 0;
-  font-size: 1.2rem;
-  text-align: center;
 }
 
 /*===================================== ABOUT ======= */
@@ -754,8 +742,8 @@ footer .social-links {
   /*============== SERVICES ===============*/
 
   #services h2 {
-    width: 47rem;
-    margin-inline: auto;
+    width: 100%;
+    margin-inline: 0;
   }
 
   #services .cards {

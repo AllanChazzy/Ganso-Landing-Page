@@ -39,7 +39,7 @@ body {
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: 'Inter';
   font-size: 1.6rem;
 
   text-align: center;
@@ -96,7 +96,7 @@ section header h1 {
 }
 
 section .content p {
-  font-family: 'IBM Plex Sans';
+  font-family: 'Inter';
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.72rem;

@@ -23,7 +23,7 @@
   --brand-secondary-02: hsl(165, 81%, 30%);
 
   --bg-green-light: hsl(180, 14%, 97%);
-  --nav-height: 9.6rem;
+  --nav-height: 8.5rem;
 
   font-size: 62.5%; /* 1rem = 10px */
 }
@@ -137,6 +137,8 @@ nav {
   display: flex;
   height: var(--nav-height);
 
+  font-size: 1.4rem;
+
   position: fixed;
   top: 0;
   width: 100vw;
@@ -240,7 +242,7 @@ body.menu-expanded .menu {
 }
 
 .menu ul li a {
-  color: var(--brand-beige);
+  color: var(--brand-primary-01);
   text-decoration: none;
 }
 
@@ -295,17 +297,17 @@ body.menu-expanded button path {
 .news {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
   background-color: var(--brand-primary-01);
-  
-  color: white;  
+
+  color: white;
   font-weight: 700;
   font-size: 1.6rem;
   text-align: center;
-  
+
   position: fixed;
   width: 50%;
-  height: 50%;  
+  height: 50%;
   z-index: 100;
 
   padding-block: 20%;
@@ -346,8 +348,8 @@ body.menu-expanded button path {
 
   transition: background 200ms;
 }
-.news .button:hover {  
-  filter: drop-shadow(0 0 0.5rem var(--brand-secondary-02))
+.news .button:hover {
+  filter: drop-shadow(0 0 0.5rem var(--brand-secondary-02));
 }
 
 .news path {
@@ -722,7 +724,7 @@ footer .social-links {
   }
 
   nav#navigation.scroll .menu li a::after {
-    background-color: var(--brand-green-light-2);
+    background-color: var(--brand-primary-01);
   }
 
   nav#navigation.scroll .menu a.button.active,
@@ -801,12 +803,17 @@ footer .social-links {
   }
 
   #services .card {
-    padding: 1.4rem;
+    padding: 1.6rem;
     background-color: var(--brand-beige);
     border-radius: 10px;
 
-    text-align: left;
+    text-align: center;
     width: 30%;
+    height: 50%;
+  }
+
+  #services .content p {
+    text-align: left;
   }
 
   /*============== ABOUT  ===============*/

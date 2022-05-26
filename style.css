@@ -150,6 +150,7 @@ nav .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 90%;
 }
 
 nav.scroll {
@@ -412,7 +413,7 @@ body.menu-expanded button path {
   gap: 6rem;
 }
 
-#stats .stat h3 {
+#home .stat h3 {
   font-size: 4.8rem;
   color: var(--headline);
   line-height: 130%;
@@ -669,6 +670,7 @@ footer .social-links {
     color: var(--brand-primary-01);
   }
 
+
   nav#navigation .menu a.button:hover {
     background-color: var(--brand-primary-01);
     border: none;
@@ -763,9 +765,12 @@ footer .social-links {
   }
 
   #home .stats {
+    display: flex;
     grid-area: C;
     flex-direction: row;
-    padding: 6rem;
+    padding: 4rem;
+    border: 1px solid var(--brand-primary-01);
+    border-radius: 10px;
     gap: 0;
   }
 
